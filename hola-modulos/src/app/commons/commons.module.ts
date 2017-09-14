@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+//import { CommonModule } from '@angular/common';
+
 import { CabezaComponent } from './cabeza/cabeza.component';
 import { PieComponent } from './pie/pie.component';
 
 @NgModule({
   imports: [
-    CommonModule
+    //CommonModule
   ],
   declarations: [
     CabezaComponent, 
